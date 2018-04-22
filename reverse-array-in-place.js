@@ -16,13 +16,13 @@ function revserseArrayInPlace(array) {
     the middle of the array.
 
     To implement this idea, the function needs to do two things:
-    1. Find out the index in the middle of the input array, which is accomplished by:
+    1. Find out the index that is in the middle of the input array, which is accomplished by:
     Math.floor(array.length / 2)
 
-    2. Loop through the first half of all elements, and reverse their positions with its
+    2. Loop through the first half of all elements, and reverse their positions with their
     counterparts, accomplished by:
     for (var i = 0; i < Math.floor(array.length / 2); i++) {
-        // Save element into a variable called "old"
+        // Save original element into a variable called "old"
         var old = array[i];
 
         // Assign counterpart element to original element
