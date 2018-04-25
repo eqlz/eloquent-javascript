@@ -5,3 +5,4 @@ Comments in each `js` file is my analysis and understand of the codes.
 
 ## Content
 1. [reverseArrayInPlace](https://github.com/eqlz/eloquent-javascript/blob/master/reverse-array-in-place.js)
+2. [arrayToList and listToArray](https://github.com/eqlz/eloquent-javascript/blob/master/list.js)
